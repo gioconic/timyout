@@ -1,0 +1,81 @@
+/*
+
+! Main colors
+? Borders:
+#e6e3e3
+
+? Fonts:
+#6439ff
+#999
+#555
+#bbb
+
+? Background:
+white
+whitesmoke
+#ece8ff
+#222
+red
+
+? Icons
+#444
+crimson
+rgba(255,0,0,0.2)
+goldenrod
+rgba(218,165,32,0.2)
+green
+rgba(0,128,0,0.2)
+purple
+rgba(128,0,128,0.2)
+
+? Charts
+#2225ff
+#d114b8
+#00c3ff
+
+
+? Boxes
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+? Word labels
+background-color: rgba(0, 128, 0, 0.05);
+color: green;
+background-color: rgba(255, 217, 0, 0.05);
+color: goldenrod;
+background-color: rgba(255, 0, 0, 0.05);
+color: crimson;
+
+ */
+
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 20px;
+      color: #999;
+      .listTitle {
+        font-weight: 500;
+        color: #999;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
