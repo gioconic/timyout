@@ -1,15 +1,15 @@
 import "./sidebar.scss";
-import DashboardIcon from "@mui/icons-material/Dashboard";
+import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import CreditCardOutlinedIcon from "@mui/icons-material/CreditCardOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
-import InsertChartIcon from "@mui/icons-material/InsertChart";
-import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
-import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
+import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
+import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
+import LocalHospitalOutlinedIcon from "@mui/icons-material/LocalHospitalOutlined";
 import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
-import SettingsIcon from "@mui/icons-material/Settings";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { Link } from "react-router-dom";
 
@@ -27,7 +27,7 @@ const Sidebar = () => {
           <p className="title">MAIN</p>
           <Link to="/" style={{ textDecoration: "none" }}>
             <li>
-              <DashboardIcon className="icon" />
+              <GridViewOutlinedIcon className="icon" />
               <span>Dashboard</span>
             </li>
           </Link>
@@ -54,17 +54,17 @@ const Sidebar = () => {
           </li>
           <p className="title">USEFUL</p>
           <li>
-            <InsertChartIcon className="icon" />
+            <InsertChartOutlinedIcon className="icon" />
             <span>Stats</span>
           </li>
           <li>
-            <NotificationsActiveIcon className="icon" />
+            <NotificationsActiveOutlinedIcon className="icon" />
             <span>Notifications</span>
           </li>
           <p className="title">SERVICE</p>
           <Link to="/shiftregister" style={{ textDecoration: "none" }}>
             <li>
-              <LocalHospitalIcon className="icon" />
+              <LocalHospitalOutlinedIcon className="icon" />
               <span>System connection</span>
             </li>
           </Link>
@@ -73,12 +73,12 @@ const Sidebar = () => {
             <span>Logs</span>
           </li>
           <li>
-            <SettingsIcon className="icon" />
+            <SettingsOutlinedIcon className="icon" />
             <span>Settings</span>
           </li>
           <p className="title">USER</p>
           <li>
-            <AccountCircleIcon className="icon" />
+            <AccountCircleOutlinedIcon className="icon" />
             <span>Profile</span>
           </li>
           <li>

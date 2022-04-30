@@ -3,6 +3,7 @@ import Chart from "../../components/chart/Chart";
 import Featured from "../../components/featured/Featured";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
+import Table from "../../components/table/Table";
 import Widget from "../../components/widget/Widget";
 
 const Home = () => {
@@ -20,6 +21,10 @@ const Home = () => {
         <div className="charts">
           <Featured />
           <Chart title="Workers per hour" aspect={2 / 1} />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Active Workers</div>
+          <Table />
         </div>
       </div>
     </div>
