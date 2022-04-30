@@ -2,9 +2,10 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import Single from "./pages/single/Single";
-/* import New from "./pages/new/New"; */
+import New from "./pages/new/New";
 /* import Shiftregister from "./pages/shiftregister/Shiftregister"; */
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { userInputs } from "./formSource";
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
-              {/* <Route
+              <Route
                 path="new"
                 element={<New inputs={userInputs} title="Add New User" />}
-              /> */}
+              />
             </Route>
             {/* Shiftregister route */}
             <Route path="shiftregister">
@@ -30,12 +31,12 @@ function App() {
               <Route path=":userId" element={<Single />} />
               <Route
                 path="new"
-                /* element={
+                element={
                   <New
                     inputs={userInputs}
                     title="Enter your code and press 'Send'"
                   />
-                } */
+                }
               />
             </Route>
             {/* 'Products' (Projects) route */}
