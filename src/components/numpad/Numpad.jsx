@@ -7,7 +7,7 @@ const Numpad = () => {
     <div className="numpadContainer">
       <main className="numpad">
         <div className="screen">
-          <span className="screen"></span>
+          <span className="screen" id="workerCode"></span>
           <div className="cursor"></div>
         </div>
         <div className="keypad">
