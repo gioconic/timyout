@@ -1,12 +1,12 @@
 import "./sidebar.scss";
 import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
+/* import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import CreditCardOutlinedIcon from "@mui/icons-material/CreditCardOutlined";
-import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
+import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined"; */
 import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
-import LocalHospitalOutlinedIcon from "@mui/icons-material/LocalHospitalOutlined";
+import CameraAltOutlinedIcon from "@mui/icons-material/CameraAltOutlined";
 import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
@@ -38,7 +38,7 @@ const Sidebar = () => {
               <span>Users</span>
             </li>
           </Link>
-          <Link to="/products" style={{ textDecoration: "none" }}>
+          {/*  <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
               <Inventory2OutlinedIcon className="icon" />
               <span>Products</span>
@@ -51,7 +51,7 @@ const Sidebar = () => {
           <li>
             <LocalShippingOutlinedIcon className="icon" />
             <span>Delivery</span>
-          </li>
+          </li> */}
           <p className="title">USEFUL</p>
           <li>
             <InsertChartOutlinedIcon className="icon" />
@@ -64,7 +64,7 @@ const Sidebar = () => {
           <p className="title">SERVICE</p>
           <Link to="/shiftregister" style={{ textDecoration: "none" }}>
             <li>
-              <LocalHospitalOutlinedIcon className="icon" />
+              <CameraAltOutlinedIcon className="icon" />
               <span>System connection</span>
             </li>
           </Link>
