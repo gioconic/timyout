@@ -3,7 +3,7 @@ import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
-/* import Shiftregister from "./pages/shiftregister/Shiftregister"; */
+import Shiftregister from "./pages/shiftregister/Shiftregister";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { userInputs } from "./formSource";
 
@@ -27,7 +27,7 @@ function App() {
             </Route>
             {/* Shiftregister route */}
             <Route path="shiftregister">
-              {/*  <Route index element={<Shiftregister />} /> */}
+              <Route index element={<Shiftregister />} />
               <Route path=":userId" element={<Single />} />
               <Route
                 path="new"
