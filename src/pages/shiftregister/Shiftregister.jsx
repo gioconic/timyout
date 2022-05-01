@@ -1,6 +1,6 @@
 import "./shiftregister.scss";
 /* import Camera from "../../components/camera/Camera"; */
-/* import Numpad from "../../components/numpad/Numpad"; */
+import Numpad from "../../components/numpad/Numpad";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 
 const Shiftregister = () => {
@@ -11,7 +11,7 @@ const Shiftregister = () => {
       </a>
       <div className="container">
         {/* <Camera /> */}
-        {/* <Numpad /> */}
+        <Numpad />
       </div>
       <div className="buttonContainer">
         <button className="button">Send</button>
