@@ -1,9 +1,51 @@
+$backgroundColor: #232325;
+$deviceColor: #2c3538;
+$screenColor: #004057;
+$screenFont: "VT323";
+$buttonColor: #4ac9ff;
+
 .numpadContainer {
   .numpad {
-    border-radius: 15px;
+    /* border-radius: 15px;
     box-shadow: -10px -10px 20px #f3f9ff, 10px 10px 20px #becbd8;
-    height: 500px;
-    width: 500px;
-    transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out; */
+    height: 450px;
+    width: 300px;
+
+    .keypad {
+      background: transparent;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 20px;
+      padding-left: 5%;
+
+      .button {
+        border-radius: 50%;
+        border: none;
+        background: #f9f9f9;
+        color: #777;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: none;
+        height: 80px;
+        width: 80px;
+        box-shadow: -10px -10px 20px #f3f9ff, 10px 10px 20px #becbd8;
+        transition: 0.3s all ease-in-out;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background: #f2f2f2;
+      }
+
+      .backspace {
+        color: rgb(250, 14, 92);
+      }
+
+      .ok {
+        color: #6439ff;
+      }
+    }
   }
 }

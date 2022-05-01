@@ -1,0 +1,14 @@
+.cameraContainer {
+  .cameraLens {
+    border-radius: 15px;
+    box-shadow: -10px -10px 20px #f3f9ff, 10px 10px 20px #becbd8;
+    height: 380px;
+    width: 500px;
+    transition: 0.3s all ease-in-out;
+
+    #video {
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+  }
+}
