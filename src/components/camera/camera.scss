@@ -1,4 +1,8 @@
 .cameraContainer {
+  /*   display: flex;
+  justify-content: center;
+  padding: 10px; */
+
   .cameraLens {
     background: #fdfdfd;
     border-radius: 15px;
@@ -12,4 +16,37 @@
       margin-top: -10px;
     }
   }
+}
+
+.cameraLens {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buttonCam {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonCam:hover {
+  background-color: #6439ff;
+  box-shadow: 0px 15px 20px rgba(80, 46, 229, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.buttonCam:active {
+  transform: translateY(-1px);
 }

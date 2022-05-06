@@ -97,8 +97,9 @@ const Camera = () => {
       <div style={{ textAlign: "center", padding: "10px" }}>
         {captureVideo && modelsLoaded ? (
           <button
+            className="buttonCam"
             onClick={closeWebcam}
-            style={{
+            /*  style={{
               cursor: "pointer",
               backgroundColor: "green",
               color: "white",
@@ -106,14 +107,15 @@ const Camera = () => {
               fontSize: "25px",
               border: "none",
               borderRadius: "10px",
-            }}
+            }} */
           >
             Close Webcam
           </button>
         ) : (
           <button
+            className="buttonCam"
             onClick={startVideo}
-            style={{
+            /* style={{
               cursor: "pointer",
               backgroundColor: "green",
               color: "white",
@@ -121,22 +123,17 @@ const Camera = () => {
               fontSize: "25px",
               border: "none",
               borderRadius: "10px",
-            }}
+            }} */
           >
             Open Webcam
           </button>
         )}
       </div>
+
       {captureVideo ? (
         modelsLoaded ? (
           <div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                padding: "10px",
-              }}
-            >
+            <div className="cameraLens">
               <video
                 ref={videoRef}
                 height={videoHeight}

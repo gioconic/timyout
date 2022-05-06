@@ -12,38 +12,38 @@ const Numpad = () => {
           <div className="cursor"></div>
         </div>
         <div className="keypad">
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             1
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             2
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             3
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             4
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             5
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             6
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             7
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             8
           </button>
-          <button onClick="doSomething()" className="button">
+          <button onClick="doSomething()" className="buttonKeypad">
             9
           </button>
-          <button onClick="doSomething()" className="button backspace">
+          <button onClick="doSomething()" className="buttonKeypad backspace">
             <BackspaceOutlinedIcon />
           </button>
-          <button className="button">0</button>
-          <button className="button ok">
+          <button className="buttonKeypad">0</button>
+          <button className="buttonKeypad ok">
             <DoneOutlinedIcon />
           </button>
           {/* {let doSomething = function () {}} */}
