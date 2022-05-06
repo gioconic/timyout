@@ -94,37 +94,13 @@ const Camera = () => {
 
   return (
     <div>
-      <div style={{ textAlign: "center", padding: "10px" }}>
+      <div className="buttonText">
         {captureVideo && modelsLoaded ? (
-          <button
-            className="buttonCam"
-            onClick={closeWebcam}
-            /*  style={{
-              cursor: "pointer",
-              backgroundColor: "green",
-              color: "white",
-              padding: "15px",
-              fontSize: "25px",
-              border: "none",
-              borderRadius: "10px",
-            }} */
-          >
+          <button className="buttonCam" onClick={closeWebcam}>
             Close Webcam
           </button>
         ) : (
-          <button
-            className="buttonCam"
-            onClick={startVideo}
-            /* style={{
-              cursor: "pointer",
-              backgroundColor: "green",
-              color: "white",
-              padding: "15px",
-              fontSize: "25px",
-              border: "none",
-              borderRadius: "10px",
-            }} */
-          >
+          <button className="buttonCam" onClick={startVideo}>
             Open Webcam
           </button>
         )}
@@ -139,7 +115,6 @@ const Camera = () => {
                 height={videoHeight}
                 width={videoWidth}
                 onPlay={handleVideoOnPlay}
-                style={{ borderRadius: "10px" }}
               />
               <canvas ref={canvasRef} style={{ position: "absolute" }} />
             </div>

@@ -1,27 +1,12 @@
-.cameraContainer {
-  /*   display: flex;
-  justify-content: center;
-  padding: 10px; */
-
-  .cameraLens {
-    background: #fdfdfd;
-    border-radius: 15px;
-    box-shadow: -10px -10px 20px #f3f9ff, 10px 10px 20px #becbd8;
-    height: 380px;
-    width: 500px;
-    transition: 0.3s all ease-in-out;
-
-    #video {
-      margin-left: 10px;
-      margin-top: -10px;
-    }
-  }
-}
-
 .cameraLens {
   display: flex;
   justify-content: center;
   padding: 10px;
+  text-align: center;
+
+  video {
+    border-radius: 10px;
+  }
 }
 
 .buttonCam {
@@ -49,4 +34,9 @@
 
 .buttonCam:active {
   transform: translateY(-1px);
+}
+
+.buttonText {
+  padding: 10px;
+  text-align: center;
 }
