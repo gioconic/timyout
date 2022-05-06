@@ -4,9 +4,9 @@ import "./camera.scss";
 const Camera = () => {
   return (
     <div>
-      <div>
+      {/* <div>
         <script src="face-api.js"></script>
-      </div>
+      </div> */}
       <div className="cameraContainer">
         <div className="cameraLens">
           <video

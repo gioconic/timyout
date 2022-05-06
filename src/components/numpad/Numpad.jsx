@@ -1,6 +1,7 @@
 import "./numpad.scss";
 import BackspaceOutlinedIcon from "@mui/icons-material/BackspaceOutlined";
 import DoneOutlinedIcon from "@mui/icons-material/DoneOutlined";
+/* import { code } from "../../numpad"; */
 
 const Numpad = () => {
   return (
@@ -45,6 +46,7 @@ const Numpad = () => {
           <button className="button ok">
             <DoneOutlinedIcon />
           </button>
+          {/* {let doSomething = function () {}} */}
         </div>
       </main>
     </div>

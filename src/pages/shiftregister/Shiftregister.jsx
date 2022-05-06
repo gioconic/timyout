@@ -1,5 +1,5 @@
 import "./shiftregister.scss";
-import Camera from "../../components/camera/Camera";
+/* import Camera from "../../components/camera/Camera"; */
 import Numpad from "../../components/numpad/Numpad";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 
@@ -10,7 +10,7 @@ const Shiftregister = () => {
         <HomeOutlinedIcon className="icon-shift" />
       </a>
       <div className="container">
-        <Camera />
+        {/* <Camera /> */}
         <Numpad />
       </div>
       <div className="buttonContainer">
